@@ -1,0 +1,7 @@
+ifenslave (2.10) unstable; urgency=medium
+
+  This version of the ifenslave package no longer provides /sbin/ifenslave. The
+  /sbin/ip command from the iproute2 package supports creating bonding masters
+  and enslaving other interfaces to it.
+
+ -- Guus Sliepen <guus@debian.org>  Tue, 08 May 2018 22:47:07 +0200
